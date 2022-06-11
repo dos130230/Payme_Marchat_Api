@@ -3,7 +3,7 @@ const PaymentModel = require("../models/PaymentModel");
 const Relations = require("../models/Relations");
 const UserModel = require("../models/UserModel");
 
-const sequelize = new Sequelize(process.env.PG_URL, {
+const sequelize = new Sequelize(process.env.PG_URL , {
 	logging: false,
 });
 
